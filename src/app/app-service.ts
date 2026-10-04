@@ -5,7 +5,8 @@ import { Observable } from 'rxjs';
 @Service()
 export class AppService {
 
-private apiUrl = 'https://6ac2643d3f4ae78f69450797.mockapi.io/employees'; 
+//private apiUrl = 'https://6ac2643d3f4ae78f69450797.mockapi.io/employees'; 
+private apiUrl = 'http://localhost:3000/api/employees'; 
   
   // ใช้ inject() แทน constructor
   private http = inject(HttpClient); 
